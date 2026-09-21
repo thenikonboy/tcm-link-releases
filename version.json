@@ -1,0 +1,17 @@
+{
+  "version": "2.5.0",
+  "buildDate": "17 กันยายน 2569",
+  "minSupportedVersion": "2.0.0",
+  "releaseTitle": "บันทึกฝังเข็ม OPD & เคสฟื้นฟูของ รพ. เอง + สรุปพัฒนาการ BI แยกรายเดือน/ไตรมาส/ปี + พิมพ์รายงาน A4",
+  "changelog": [
+    "เพิ่มเมนูบันทึกฝังเข็มแยกอิสระ: บันทึกฝังเข็ม (IMC/COC/Rehab) และ บันทึกฝังเข็ม OPD Case",
+    "รองรับการคีย์รับเคสใหม่โดยโรงพยาบาลเองโดยตรง (ทั้งเคสฟื้นฟู รพ. และเคส OPD) พร้อมอนุมัติทันที",
+    "สรุปรายงานพัฒนาการ Barthel Index แยกรายเดือน (12 เดือน), รายไตรมาส (Q1-Q4) และรายปีงบประมาณ",
+    "มาตรฐานคะแนน Barthel Index 0-20 คะแนนในทุกรายงาน กราฟพัฒนาการ และแบบฟอร์มเวชระเบียน",
+    "พิมพ์รายงานเวชระเบียนผู้ป่วยฟื้นฟู IMC (แบบฟอร์ม TCM-IMC-01) ขนาดมาตรฐาน A4",
+    "ระบบตรวจเช็กและดาวน์โหลดอัปเดตผ่าน GitHub Releases อัตโนมัติ ปลอดภัย ข้อมูลคนไข้ไม่สูญหาย"
+  ],
+  "downloadUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/update_payload.zip",
+  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.5.0-Setup.exe",
+  "releasePageUrl": "https://github.com/thenikonboy/tcm-link-releases"
+}
