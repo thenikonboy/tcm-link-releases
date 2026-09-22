@@ -1,17 +1,15 @@
-{
-  "version": "2.5.0",
-  "buildDate": "17 กันยายน 2569",
+﻿{
+  "version": "2.6.0",
+  "buildDate": "22 กันยายน 2569",
   "minSupportedVersion": "2.0.0",
-  "releaseTitle": "TCM-Link Trang IMC Healthcare Fast-Track v2.5.0",
+  "releaseTitle": "TCM-Link Trang IMC Multi-Station & Cloud Merge v2.6.0",
   "changelog": [
-    "เพิ่มเมนูบันทึกฝังเข็มแยกอิสระ: บันทึกฝังเข็ม (IMC/COC/Rehab) และ บันทึกฝังเข็ม OPD Case",
-    "รองรับการคีย์รับเคสใหม่โดยโรงพยาบาลเองโดยตรง (ทั้งเคสฟื้นฟู รพ. และเคส OPD) พร้อมอนุมัติทันที",
-    "สรุปรายงานพัฒนาการ Barthel Index แยกรายเดือน (12 เดือน), รายไตรมาส (Q1-Q4) และรายปีงบประมาณ",
-    "มาตรฐานคะแนน Barthel Index 0-20 คะแนนในทุกรายงาน กราฟพัฒนาการ และแบบฟอร์มเวชระเบียน",
-    "พิมพ์รายงานเวชระเบียนผู้ป่วยฟื้นฟู IMC (แบบฟอร์ม TCM-IMC-01) ขนาดมาตรฐาน A4",
-    "ระบบตรวจเช็กและอัปเดตผ่าน GitHub Releases อัตโนมัติ ปลอดภัย ข้อมูลคนไข้ไม่สูญหาย"
+    "ระบบล็อกอินด้วยอีเมลโรงพยาบาล (Hospital Staff Login) พร้อม PIN Code ประจำเครื่อง ใช้งานพร้อมกันได้หลายจุด",
+    "อัปเกรด Google Apps Script Template v3.0 (Smart Upsert & Merge) แก้ไขปัญหาข้อมูลไม่ตรงกันระหว่างชั้นบน-ชั้นล่าง และเครือข่าย รพ. 4, 5, 6, 7 ซิงค์เคสหากันได้ 100%",
+    "เคลียร์ข้อมูลเคสทดสอบเดิมทั้งหมด สะอาดหมดจดเหมือนติดตั้งใหม่ พร้อมรับเคสจริง",
+    "ปรับปรุงระบบติดตั้งใหม่ ตรวจจับและปิด Service เก่าอัตโนมัติ (Clean Install)"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/update_payload.zip",
-  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.5.0-Setup.exe",
+  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.6.0-Setup.exe",
   "releasePageUrl": "https://github.com/thenikonboy/tcm-link-releases"
 }
