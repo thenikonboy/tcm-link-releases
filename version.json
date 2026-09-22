@@ -1,13 +1,14 @@
-﻿{
+{
   "version": "2.6.0",
   "buildDate": "22 กันยายน 2569",
   "minSupportedVersion": "2.0.0",
   "releaseTitle": "TCM-Link Trang IMC Multi-Station & Cloud Merge v2.6.0",
   "changelog": [
-    "ระบบล็อกอินด้วยอีเมลโรงพยาบาล (Hospital Staff Login) พร้อม PIN Code ประจำเครื่อง ใช้งานพร้อมกันได้หลายจุด",
-    "อัปเกรด Google Apps Script Template v3.0 (Smart Upsert & Merge) แก้ไขปัญหาข้อมูลไม่ตรงกันระหว่างชั้นบน-ชั้นล่าง และเครือข่าย รพ. 4, 5, 6, 7 ซิงค์เคสหากันได้ 100%",
-    "เคลียร์ข้อมูลเคสทดสอบเดิมทั้งหมด สะอาดหมดจดเหมือนติดตั้งใหม่ พร้อมรับเคสจริง",
-    "ปรับปรุงระบบติดตั้งใหม่ ตรวจจับและปิด Service เก่าอัตโนมัติ (Clean Install)"
+    "ปรับปรุงไอคอนภายในแอพ (หน้าต่างเข้าสู่ระบบ, เมนูด้านข้าง, แถบหัวเรื่อง และหน้าต่างตราสัญลักษณ์) ให้ตรงกับไอคอนหน้า Desktop 100%",
+    "ระบบ Staff Login ด้วยอีเมลโรงพยาบาล & PIN ประจำจุดบริการ (เชื่อมต่อพร้อมกันได้หลายเครื่อง)",
+    "ระบบ Google Apps Script Multi-Station Non-Destructive Cloud Merge 3.0: ซิงค์ข้อมูลข้ามเครื่องและข้าม รพ. แบบไม่เขียนทับ",
+    "ล้างแคชและข้อมูลทดลองเดิมทั้งหมด พร้อมเริ่มบันทึกเคสจริงในโรงพยาบาล",
+    "ตัวติดตั้งใหม่ Clean Install: ตรวจจับและปิด Service/ไฟล์เดิมให้อัตโนมัติ"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/update_payload.zip",
   "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.6.0-Setup.exe",
