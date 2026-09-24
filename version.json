@@ -1,16 +1,14 @@
 {
-  "version": "2.6.0",
-  "buildDate": "22 กันยายน 2569",
-  "minSupportedVersion": "2.0.0",
-  "releaseTitle": "TCM-Link Trang IMC Multi-Station & Cloud Merge v2.6.0",
-  "changelog": [
-    "ปรับปรุงไอคอนภายในแอพ (หน้าต่างเข้าสู่ระบบ, เมนูด้านข้าง, แถบหัวเรื่อง และหน้าต่างตราสัญลักษณ์) ให้ตรงกับไอคอนหน้า Desktop 100%",
-    "ระบบ Staff Login ด้วยอีเมลโรงพยาบาล & PIN ประจำจุดบริการ (เชื่อมต่อพร้อมกันได้หลายเครื่อง)",
-    "ระบบ Google Apps Script Multi-Station Non-Destructive Cloud Merge 3.0: ซิงค์ข้อมูลข้ามเครื่องและข้าม รพ. แบบไม่เขียนทับ",
-    "ล้างแคชและข้อมูลทดลองเดิมทั้งหมด พร้อมเริ่มบันทึกเคสจริงในโรงพยาบาล",
-    "ตัวติดตั้งใหม่ Clean Install: ตรวจจับและปิด Service/ไฟล์เดิมให้อัตโนมัติ"
-  ],
+  "version": "2.6.1",
+  "buildDate": "24 กันยายน 2569",
   "downloadUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/update_payload.zip",
-  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.6.0-Setup.exe",
-  "releasePageUrl": "https://github.com/thenikonboy/tcm-link-releases"
+  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.6.1-Setup.exe",
+  "releasePageUrl": "https://github.com/thenikonboy/tcm-link-releases",
+  "changelog": [
+    "แก้ไขระบบบันทึกข้อมูลในหมวดข้อ 4 (บันทึกฝังเข็ม IMC/COC/Rehab): บันทึกแล้วไม่เด้งสลับหน้าจอ และแสดงตารางสรุปประวัติการรักษาที่บันทึกแล้วทันที",
+    "ระบบเตรียมเลขครั้งที่ถัดไปให้อัตโนมัติ (เช่น บันทึกครั้งที่ 1 เสร็จ ฟอร์มจะเปลี่ยนเป็นครั้งที่ 2 ให้ทันที)",
+    "แก้ไขปัญหา Form Validation บล็อกการบันทึก: ปลดล็อกช่องบันทึกความก้าวหน้าและชื่อแพทย์ พร้อมเติมข้อความมาตรฐานให้อัตโนมัติ",
+    "ระบบจัดเก็บประวัติการรักษา Non-Destructive Session Merge & Dedicated Session API: รับประกันข้อมูลไม่สูญหายและไม่ถูกเขียนทับขณะซิงก์ข้อมูล",
+    "ปรับสเกลคะแนน Barthel Index ในการแจ้งเตือนบันทึกผลเป็น 0-20 คะแนน ตามเกณฑ์ สปสช. กองทุน IMC"
+  ]
 }
