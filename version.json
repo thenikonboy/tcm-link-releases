@@ -1,17 +1,16 @@
 {
-  "version": "2.6.1.1",
-  "buildDate": "24 กันยายน 2569",
+  "version": "2.7.0",
+  "buildDate": "8 ตุลาคม 2569",
   "minSupportedVersion": "2.0.0",
-  "releaseTitle": "TCM-Link Trang IMC Multi-Hospital Real-time Presence & Sync v2.6.1.1",
+  "releaseTitle": "TCM-Link Trang IMC Referral Hub & PDPA Audit Trail v2.7.0",
   "changelog": [
-    "ระบบ Dual Real-time Heartbeat: ซิงก์สถานะออนไลน์ข้าม รพ. อัตโนมัติผ่าน Google Sheets ทุก 30 วินาที",
-    "ระบบ Non-Destructive Hospital Presence Merge: ป้องกันไม่ให้การตรวจสอบสถานะในเครื่องเขียนทับสถานะออนไลน์ของ รพ. อื่น",
-    "ขยายกรอบเวลาตรวจจับสถานะออนไลน์เป็น 3.5 นาที รองรับการเชื่อมต่อข้ามอำเภอได้อย่างเสถียร",
-    "แก้ไขระบบบันทึกข้อมูลฝังเข็มหมวดข้อ 4 (บันทึกแล้วไม่เด้งหน้าจอ พร้อมตารางประวัติทันที)",
-    "ระบบเตรียมเลขครั้งที่ถัดไปให้อัตโนมัติ (#2, #3, ...) สะดวก รวดเร็ว",
-    "Non-Destructive Session Merge & Dedicated Session API ข้อมูลไม่สูญหายแน่นอน"
+    "สถาปัตยกรรม Referral Hub กลาง (Tenant Isolation): โรงพยาบาลปลายทางมองเห็นเฉพาะเคสที่ส่งถึงตนเอง ป้องกันการเข้าถึงฐานข้อมูลโดยตรง 100%",
+    "ระบบบันทึกประวัติการเข้าถึงข้อมูล (Audit Trail) ตาม พ.ร.บ. PDPA มาตรา 26: บันทึกทุกกิจกรรม (View, Approve, Reject, Session Add) พร้อมส่งออก CSV",
+    "วงจรสถานะงานส่งต่อ (Referral Task Workflow): เพิ่มสถานะ 'เปิดอ่านแล้ว (VIEWED)' อัตโนมัติเมื่อแพทย์เปิดดู และระบุเหตุผลการปฏิเสธเคส (Rejection Reason)",
+    "รองรับมาตรฐานสุขภาพสากล HL7 FHIR Release 4: เพิ่ม Endpoints /api/fhir/ServiceRequest, /api/fhir/Task และ /api/fhir/Patient",
+    "คำแนะนำการเชื่อมต่อความปลอดภัยระดับเครือข่ายด้วย WireGuard VPN และการเข้ารหัสแบบ End-to-End"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/update_payload.zip",
-  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.6.1.1-Setup.exe",
+  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.7.0-Setup.exe",
   "releasePageUrl": "https://github.com/thenikonboy/tcm-link-releases"
 }
