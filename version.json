@@ -1,16 +1,16 @@
 {
-  "version": "2.7.0",
-  "buildDate": "8 ตุลาคม 2569",
+  "version": "2.8.0",
+  "buildDate": "10 ตุลาคม 2569",
   "minSupportedVersion": "2.0.0",
-  "releaseTitle": "TCM-Link Trang IMC Referral Hub & PDPA Audit Trail v2.7.0",
+  "releaseTitle": "TCM-Link Trang IMC Audio Alert, A4 Referral Slip, Medical Attachments & Executive Dashboard v2.8.0",
   "changelog": [
-    "สถาปัตยกรรม Referral Hub กลาง (Tenant Isolation): โรงพยาบาลปลายทางมองเห็นเฉพาะเคสที่ส่งถึงตนเอง ป้องกันการเข้าถึงฐานข้อมูลโดยตรง 100%",
-    "ระบบบันทึกประวัติการเข้าถึงข้อมูล (Audit Trail) ตาม พ.ร.บ. PDPA มาตรา 26: บันทึกทุกกิจกรรม (View, Approve, Reject, Session Add) พร้อมส่งออก CSV",
-    "วงจรสถานะงานส่งต่อ (Referral Task Workflow): เพิ่มสถานะ 'เปิดอ่านแล้ว (VIEWED)' อัตโนมัติเมื่อแพทย์เปิดดู และระบุเหตุผลการปฏิเสธเคส (Rejection Reason)",
-    "รองรับมาตรฐานสุขภาพสากล HL7 FHIR Release 4: เพิ่ม Endpoints /api/fhir/ServiceRequest, /api/fhir/Task และ /api/fhir/Patient",
-    "คำแนะนำการเชื่อมต่อความปลอดภัยระดับเครือข่ายด้วย WireGuard VPN และการเข้ารหัสแบบ End-to-End"
+    "เสียงเตือนและแจ้งเตือนหน้าจอทันทีเมื่อมีเคสส่งต่อเข้า (Audio Chime & Desktop Notification): สังเคราะห์เสียง Dual-Tone Chime (880Hz & 1320Hz) ผ่าน Web Audio API ทำงานได้ 100% แม้ไม่มีอินเทอร์เน็ต",
+    "พิมพ์ใบส่งตัวผู้ป่วยมาตรฐาน A4 (TCM-IMC-REF-01): พร้อมหัวหนังสือโรงพยาบาล ตราหน่วยงาน ข้อมูลแพทย์ และ QR Code ประวัติส่งต่อแบบพกพา",
+    "แนบไฟล์และรูปภาพทางการแพทย์ (Medical File Attachments): รองรับภาพถ่ายลิ้น, ผลสแกน CT/MRI, ใบส่งตัว (Discharge Summary) ขนาดไฟล์สูงสุด 8MB พร้อม Lightbox พรีวิว",
+    "แดชบอร์ดสรุปภาพรวมเครือข่าย IMC ระดับจังหวัดตรัง (Provincial Executive Dashboard): รวมสถิติ 10 โรงพยาบาล, กราฟวินิจฉัยโรค, และ Matrix ตรวจสอบประสิทธิภาพการรักษา",
+    "ระบบสำรองข้อมูลฐานข้อมูลอัตโนมัติ (Automated Database Backup & Retention): สำรองข้อมูลลงไดรฟ์เครื่องทุกวัน เก็บย้อนหลัง 14 วัน พร้อมระบบ Snapshot แบบแมนนวล ดาวน์โหลด และกู้คืนข้อมูล 1-คลิก"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/update_payload.zip",
-  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.7.0-Setup.exe",
+  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.8.0-Setup.exe",
   "releasePageUrl": "https://github.com/thenikonboy/tcm-link-releases"
 }
