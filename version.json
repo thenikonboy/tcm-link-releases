@@ -1,16 +1,16 @@
 {
-  "version": "2.8.0",
-  "buildDate": "10 ตุลาคม 2569",
+  "version": "2.8.1",
+  "buildDate": "12 ตุลาคม 2569",
   "minSupportedVersion": "2.0.0",
-  "releaseTitle": "TCM-Link Trang IMC Audio Alert, A4 Referral Slip, Medical Attachments & Executive Dashboard v2.8.0",
+  "releaseTitle": "TCM-Link Trang IMC Clean Flat Toolbar, No-Procedure Option & Triage Routing Fix v2.8.1",
   "changelog": [
-    "เสียงเตือนและแจ้งเตือนหน้าจอทันทีเมื่อมีเคสส่งต่อเข้า (Audio Chime & Desktop Notification): สังเคราะห์เสียง Dual-Tone Chime (880Hz & 1320Hz) ผ่าน Web Audio API ทำงานได้ 100% แม้ไม่มีอินเทอร์เน็ต",
-    "พิมพ์ใบส่งตัวผู้ป่วยมาตรฐาน A4 (TCM-IMC-REF-01): พร้อมหัวหนังสือโรงพยาบาล ตราหน่วยงาน ข้อมูลแพทย์ และ QR Code ประวัติส่งต่อแบบพกพา",
-    "แนบไฟล์และรูปภาพทางการแพทย์ (Medical File Attachments): รองรับภาพถ่ายลิ้น, ผลสแกน CT/MRI, ใบส่งตัว (Discharge Summary) ขนาดไฟล์สูงสุด 8MB พร้อม Lightbox พรีวิว",
-    "แดชบอร์ดสรุปภาพรวมเครือข่าย IMC ระดับจังหวัดตรัง (Provincial Executive Dashboard): รวมสถิติ 10 โรงพยาบาล, กราฟวินิจฉัยโรค, และ Matrix ตรวจสอบประสิทธิภาพการรักษา",
-    "ระบบสำรองข้อมูลฐานข้อมูลอัตโนมัติ (Automated Database Backup & Retention): สำรองข้อมูลลงไดรฟ์เครื่องทุกวัน เก็บย้อนหลัง 14 วัน พร้อมระบบ Snapshot แบบแมนนวล ดาวน์โหลด และกู้คืนข้อมูล 1-คลิก"
+    "แถบเมนูด้านบนเป็นตัวหนังสือแบบ Flat เรียบหรู ไร้กรอบพื้นหลัง (Clean Text Toolbar Navigation): แสดงเมนูและไอคอนเรียบสบายตา ไร้กรอบและเงารบกวน",
+    "เพิ่มตัวเลือก 'ไม่มีหัตถการ' (ตรวจประเมิน/ปรึกษา): รองรับทั้งเคสฟื้นฟู IMC และเคสผู้ป่วยนอก OPD คลินิกฝังเข็มทั่วไป",
+    "แก้ไขระบบนำทางเคสใหม่: คีย์คนไข้แล้วไม่เด้งเข้า 'กล่องรับเคสส่งต่อ' (Triage Inbox) โดยเคสใน รพ. นำไปยังหน้าบันทึกการรักษา และเคสส่งต่อนำไปแดชบอร์ด",
+    "ปรับปรุงการคัดกรองกล่องรับเคสส่งต่อ (Triage Inbox): แสดงเฉพาะเคสส่งต่อจาก รพ. อื่นที่ส่งเข้ามายัง รพ. นี้เท่านั้น โดยไม่นำเคสภายใน รพ. ตนเองเข้ามาปะปน",
+    "ป้องกันเสียงกระดิ่งเตือนและแจ้งเตือนหน้าจอดังซ้ำเมื่อสร้างเคสภายในโรงพยาบาลของตนเอง"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/update_payload.zip",
-  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.8.0-Setup.exe",
+  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.8.1-Setup.exe",
   "releasePageUrl": "https://github.com/thenikonboy/tcm-link-releases"
 }
