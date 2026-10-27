@@ -1,16 +1,15 @@
 {
-  "version": "2.8.3",
+  "version": "2.8.4",
   "buildDate": "27 ตุลาคม 2569",
   "minSupportedVersion": "2.0.0",
-  "releaseTitle": "TCM-Link Trang IMC Multi-Station Cloud Staff Sync & Remember PIN v2.8.3",
+  "releaseTitle": "TCM-Link Trang IMC Smart User Switch & Close Program Protection v2.8.4",
   "changelog": [
-    "ระบบจดจำบัญชีและรหัส PIN เจ้าหน้าที่ข้ามเครื่องผ่าน Firebase Cloud (Multi-Station Cloud Auth): บันทึกชื่อคุณหมอ, อีเมล, สังกัด รพ., ตำแหน่ง, เลข ว.พจ. และรหัสผ่าน/PIN ขึ้น Cloud ปลอดภัย 100%",
-    "สลับไปเปิดเครื่องสำรอง/เครื่องที่ 2 ของโรงพยาบาลได้ทันที (Zero Re-typing): หน้าจอล็อกอินจะดึงรายชื่อคุณหมอประจำโรงพยาบาลมาแสดงเป็นปุ่มด่วน 1-คลิก พร้อมดึงชื่อและตำแหน่งให้อัตโนมัติแม้เครื่องเดิมจะมีปัญหา",
-    "ระบบจดจำรหัส PIN บนเครื่อง (Remember PIN): ติ๊กจำการเข้าสู่ระบบแล้ว โปรแกรมจะบันทึกรหัส PIN ไว้อย่างปลอดภัย เปิดโปรแกรมเข้าใช้งานได้สะดวกรวดเร็วไม่ต้องกรอกซ้ำทุกรอบ",
-    "รองรับการทำงานแบบ Offline-First 100%: แม้ไม่มีสัญญาณอินเทอร์เน็ตยังสามารถเข้าสู่ระบบและบันทึกเวชระเบียนผ่านฐานข้อมูลในเครื่องได้อย่างต่อเนื่อง",
-    "รักษาข้อมูลเวชระเบียนเดิม 100% (Zero Data Loss): ป้องกันและรักษาฐานข้อมูลการรักษาเดิมในเครื่องอย่างปลอดภัย"
+    "ปรับปรุงปุ่มตัวเลือกผู้ใช้: เปลี่ยนปุ่ม 'ออก' ที่มุมขวาบนให้แสดงเป็น 'สลับผู้ใช้' อย่างชัดเจน เพื่อไม่ให้สับสนกับปุ่มกากบาท [✕] ปิดโปรแกรมของ Windows",
+    "เพิ่มกล่องตัวเลือกอัจฉริยะเมื่อกด: สามารถเลือก '🚪 ปิดโปรแกรม (ออกจากแอพ)' เพื่อปิดแอพทันทีโดยคงสถานะล็อกอินและจำรหัส PIN ไว้ หรือเลือก '🔄 สลับบัญชีผู้ใช้งาน' เพื่อออกจากระบบ",
+    "เพิ่มปุ่มปิด [✕] และปุ่ม 'ยกเลิก' ในหน้าต่าง Staff Login: ช่วยให้คุณหมอสามารถปิดหน้าต่างล็อกอินและกลับสู่หน้าจอการทำงานเดิมได้ทันที ไม่ถูกบังคับล็อกอินค้างไว้",
+    "ระบบจดจำบัญชีและรหัส PIN เจ้าหน้าที่ข้ามเครื่องผ่าน Firebase Cloud (Multi-Station Cloud Auth) และคงข้อมูลเวชระเบียนเดิมปลอดภัย 100%"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/update_payload.zip",
-  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.8.3-Setup.exe",
+  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.8.4-Setup.exe",
   "releasePageUrl": "https://github.com/thenikonboy/tcm-link-releases"
 }
