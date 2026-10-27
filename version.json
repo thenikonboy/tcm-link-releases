@@ -1,19 +1,16 @@
 {
-  "version": "2.8.2",
-  "buildDate": "15 ตุลาคม 2569",
+  "version": "2.8.3",
+  "buildDate": "27 ตุลาคม 2569",
   "minSupportedVersion": "2.0.0",
-  "releaseTitle": "TCM-Link Trang IMC Mobile LAN Sync, Thai Date, No-Procedure Protocol & Huai Yot Hospital Online v2.8.2",
+  "releaseTitle": "TCM-Link Trang IMC Multi-Station Cloud Staff Sync & Remember PIN v2.8.3",
   "changelog": [
-    "ระบบท่อส่งต่อผู้ป่วยออนไลน์ Real-time ผ่าน Firebase Cloud Firestore & Firebase Hosting: อัปเดตข้อมูลส่งต่อข้ามโรงพยาบาลรวดเร็วแบบเรียลไทม์ ปลอดภัยตามมาตรฐาน PDPA พร้อมเว็บไซต์ https://tcm-link-trang.web.app",
-    "ระบบตัวติดตั้งสแตนด์อโลน 1-Click รายโรงพยาบาลใน จ.ตรัง พร้อม Node.js Runtime ในตัว (Zero External Dependencies) สำหรับ 10 โรงพยาบาล",
-    "ระบบ Auto-Cleaner Engine ในตัวติดตั้ง: กวาดล้างและลบโฟลเดอร์รุ่นเก่าบนไดรฟ์ C: (C:\\TCM-Link-Desktop, C:\\tcm-link-releases) พร้อมสำรองและปกป้องข้อมูลคนไข้เดิม 100%",
-    "ระบบเพิ่มโรงพยาบาล/รพ.สต. ในเครือข่ายได้เอง และกดตั้งเป็นสังกัดประจำเครื่องคอมพิวเตอร์นั้นได้ทันทีด้วย 1-Click",
-    "ระบบสแกน QR ใช้งานคู่หูบนมือถือ/แท็บเล็ต (Mobile/Tablet Companion LAN Sync) พร้อมระบบ Auto-Login สู่หน้าบันทึกการรักษาทันที",
-    "ปรับรูปแบบวันที่ในระบบเป็น วัน/เดือน/ปี พุทธศักราช (Thai Date Standard DD/MM/YYYY) ชัดเจน ป้องกันความสับสนระหว่างเดือนและวัน",
-    "ปรับปรุงกรณี 'ไม่มีหัตถการ' (ตรวจประเมิน/ปรึกษา): เคลียร์จุดฝังเข็มและการกระตุ้นไฟฟ้าออกทั้งหมด แสดงสถานะชัดเจน",
-    "รวมกล่องสถานะออนไลน์ รพ.ห้วยยอด (Single Canonical Hospital Card รหัส 11411) แสดงสถานะ '🟢 ออนไลน์ (เครื่องนี้)' ทันที"
+    "ระบบจดจำบัญชีและรหัส PIN เจ้าหน้าที่ข้ามเครื่องผ่าน Firebase Cloud (Multi-Station Cloud Auth): บันทึกชื่อคุณหมอ, อีเมล, สังกัด รพ., ตำแหน่ง, เลข ว.พจ. และรหัสผ่าน/PIN ขึ้น Cloud ปลอดภัย 100%",
+    "สลับไปเปิดเครื่องสำรอง/เครื่องที่ 2 ของโรงพยาบาลได้ทันที (Zero Re-typing): หน้าจอล็อกอินจะดึงรายชื่อคุณหมอประจำโรงพยาบาลมาแสดงเป็นปุ่มด่วน 1-คลิก พร้อมดึงชื่อและตำแหน่งให้อัตโนมัติแม้เครื่องเดิมจะมีปัญหา",
+    "ระบบจดจำรหัส PIN บนเครื่อง (Remember PIN): ติ๊กจำการเข้าสู่ระบบแล้ว โปรแกรมจะบันทึกรหัส PIN ไว้อย่างปลอดภัย เปิดโปรแกรมเข้าใช้งานได้สะดวกรวดเร็วไม่ต้องกรอกซ้ำทุกรอบ",
+    "รองรับการทำงานแบบ Offline-First 100%: แม้ไม่มีสัญญาณอินเทอร์เน็ตยังสามารถเข้าสู่ระบบและบันทึกเวชระเบียนผ่านฐานข้อมูลในเครื่องได้อย่างต่อเนื่อง",
+    "รักษาข้อมูลเวชระเบียนเดิม 100% (Zero Data Loss): ป้องกันและรักษาฐานข้อมูลการรักษาเดิมในเครื่องอย่างปลอดภัย"
   ],
   "downloadUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/update_payload.zip",
-  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.8.2-Setup.exe",
+  "installerUrl": "https://raw.githubusercontent.com/thenikonboy/tcm-link-releases/main/TCM-Link-Update-v2.8.3-Setup.exe",
   "releasePageUrl": "https://github.com/thenikonboy/tcm-link-releases"
 }
